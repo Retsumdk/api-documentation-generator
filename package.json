@@ -8,7 +8,7 @@
   },
   "scripts": {
     "build": "tsc",
-    "test": "node dist/index.js --path ./test/fixtures --output ./test/output --format markdown",
+    "test": "bun test",
     "dev": "tsc --watch",
     "prepublish": "tsc"
   },

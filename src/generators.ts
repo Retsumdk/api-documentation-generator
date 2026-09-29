@@ -35,7 +35,7 @@ function generateMarkdown(doc: Documentation): string {
       if (ep.description) {
         md += `${ep.description}\n\n`;
       }
-      if (ep.parameters.length > 0) {
+      if (ep.parameters?.length > 0) {
         md += '**Parameters:**\n\n';
         md += '| Name | In | Type | Required | Description |\n';
         md += '|------|----|------|----------|-------------|\n';
