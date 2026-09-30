@@ -20,7 +20,7 @@
     "jsdoc",
     "typescript"
   ],
-  "author": "The BookMaster",
+  "author": "Retsumdk",
   "license": "MIT",
   "dependencies": {
     "commander": "^11.1.0"
